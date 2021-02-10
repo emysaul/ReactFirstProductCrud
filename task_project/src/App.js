@@ -18,12 +18,11 @@ function App() {
     case 3:
       component = <Main />
       break;
-    
   }
   return (
-      <Container fluid className={"d-flex flex-wrap"}>
+      <div className={"appContainer"}>
         {component}
-      </Container>
+      </div>
   );
 }
 

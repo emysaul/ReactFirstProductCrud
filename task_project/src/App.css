@@ -1,37 +1,88 @@
-.fullHeight {
-  position: absolute;
-    top: 0;
-    bottom: 0;
-    height: 100vh;
-}
-.content { 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    background: #23272b;
-    padding: 10px 20px;
-    color: white;
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
-
-.contentBody { 
-    background: #233141;
-    padding: 1px 20px;
+.root {
+  width: 100%;
+  height: 577px;
+  min-height: 577px;
+  max-height: 577px;
 }
 
-.content a {
-    outline: none;
-    padding: 2px 1px 0;
-  }
-  
-  .content  a:link {
-    color: white;
-  }
-  
- .content  a:visited {
-    color: white;
- }
- 
- .content  a:active {
-    color: white;
- }
+.appContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sideBar {
+  width: 30%;
+  height: 100%;
+  padding: 10px;
+  background: white;
+  text-align: center;
+}
+
+.content {
+  width: 70%;
+  height: 100%;
+  text-align: center;
+  color: black;
+  overflow: auto;
+}
+
+.contentHeader {
+  width: 100%;
+  background: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+.linkNoneDecoration:hover {
+  text-decoration: none;
+}
+.contentHeader a {
+  color: white;
+}
+.contentAddTask {
+  background: #2c3842;
+  padding: 20px 20%;
+}
+
+.emptyProject {
+  padding: 5px 20%;
+}
+
+.deleteProject {
+  display: block;
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.tasks {
+  overflow: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+.sideBarSubTitle {
+  font-weight: normal;
+}
+
+.newProject {
+  margin: 40px 0px;
+}
+
+.projects {
+  margin: 40px 0px;
+}
