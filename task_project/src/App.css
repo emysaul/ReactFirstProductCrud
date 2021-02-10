@@ -1,0 +1,37 @@
+.fullHeight {
+  position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+}
+.content { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #23272b;
+    padding: 10px 20px;
+    color: white;
+}
+
+
+.contentBody { 
+    background: #233141;
+    padding: 1px 20px;
+}
+
+.content a {
+    outline: none;
+    padding: 2px 1px 0;
+  }
+  
+  .content  a:link {
+    color: white;
+  }
+  
+ .content  a:visited {
+    color: white;
+ }
+ 
+ .content  a:active {
+    color: white;
+ }
