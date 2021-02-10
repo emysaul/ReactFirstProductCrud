@@ -17,3 +17,6 @@ Este proyecto busca implementar los conceptos de básicos de React implementados
 	* alert
 	* localStorage
 	* Higher-Order Components (https://reactjs.org/docs/higher-order-components.html)  Ocultar un componente si no esta authenticado Deployment a Netlify 86
+	* Json Server (Para un server fake) https://github.com/typicode/json-server
+	* Usar Authentificacion con JsonWebToken
+	
