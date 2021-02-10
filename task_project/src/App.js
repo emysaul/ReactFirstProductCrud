@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Fragment } from 'react'
 import Clock from './components/Clock'
 function App() {
