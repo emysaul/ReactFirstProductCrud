@@ -1,0 +1,11 @@
+{
+    "users": [
+        { "id": 1, "name": "Emy", "email": "Emy", "password": "Emy", "creationTime": "2012-04-23T18:25:43.511Z" }
+    ],
+    "projects": [
+      { "id": 1, "name": "Comer", "userId": 1, "creationTime": "2012-04-23T18:25:43.511Z" }
+    ],
+    "tasks": [
+      { "id": 1, "name": "Comer", "status": true, "projectId": 1, "creationTime": "2012-04-23T18:25:43.511Z" }
+    ]
+}
