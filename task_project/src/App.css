@@ -86,3 +86,15 @@
 .projects {
   margin: 40px 0px;
 }
+
+.login { 
+  text-align: center;
+  margin: 10% auto;
+  width: 30%;
+}
+
+.register { 
+  text-align: center;
+  margin: 10% auto;
+  width: 60%;
+}

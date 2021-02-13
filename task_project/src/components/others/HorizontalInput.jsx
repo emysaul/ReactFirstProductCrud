@@ -1,6 +1,6 @@
 import {  Form, Col, Row, InputGroup, FormControl } from 'react-bootstrap';
 
-export default ({value, onChangeMethod, type = 'text', placeholder, icon, title, smTitle=2, smCol=10}) => {
+export default ({value, name, onChangeMethod, placeholder, icon, title, required = false, autoComplete="off", type = 'text', smTitle=2, smCol=10}) => {
 
     let showIcon = 
     icon ? (
@@ -10,7 +10,7 @@ export default ({value, onChangeMethod, type = 'text', placeholder, icon, title,
     ) : null;
 
     return (
-        <Form.Group as={Row} controlId="formHorizontalEmail">
+        <Form.Group as={Row}>
             <Form.Label column sm={smTitle}>
             {title}
             </Form.Label>
@@ -21,6 +21,9 @@ export default ({value, onChangeMethod, type = 'text', placeholder, icon, title,
                         placeholder={placeholder}
                         value={value}
                         onChange={onChangeMethod}
+                        name={name}
+                        autoComplete={autoComplete}
+                        required={required}
                         />
                     {showIcon}
                 </InputGroup>

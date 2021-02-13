@@ -1,5 +1,5 @@
-import Content from './Content';
-import SideLefBar from './SideLefBar';
+import Content from '../components/home/Content';
+import SideLefBar from '../components/home/SideLefBar';
 
 const Main = (props) => {
     return (
